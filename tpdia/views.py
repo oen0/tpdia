@@ -9,7 +9,7 @@ from tpdia import app
 @app.route('/')
 @app.route('/home')
 def home():
-    """Renders the home page."""
+    """Renders the home page. TEST"""
     return render_template(
         'index.html',
         title='Home Page',
